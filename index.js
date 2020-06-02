@@ -22,13 +22,6 @@ let users = [
   }
 ];
 
-// let users =
-//   {
-//     // id: "a",
-//     // name: "Ben Kenobi",
-//     // bio: "Only here because he's the Teacher's nephew"
-//   }
- 
 
 server.post("/api/users", (req, res) => {
   const newUser = {
